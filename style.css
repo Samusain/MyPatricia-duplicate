@@ -1249,27 +1249,46 @@ footer .footer-wrapper {
 
 .flex-space {
     display: flex;
+    max-width: 200px;
 }
 
 .flex-space a {
-    max-width: ;
-    background-color: #006156;
+    display: block;
+    font-size: 15px;
     color: #ffffff;
+    font-weight: 800;
+    margin-right: 15px;
 }
 
-.utube {
-    width: 70px;
-    height: auto;
+.pat-app {
+    margin-bottom: 38.5px;
+    margin-top: 38.5px;
+    display: flex;
 }
-.twit {
-    width: 30%;
-    height: 40%;
+
+.pat-app img {
+    border-radius: 10px;
+    border: none;
+    height: 70px;
 }
-.Ig {
-    width: 20%;
-    height: auto;
+
+.address-1 h5{
+    font-size: 13.75px;
+    font-weight: 700;
+    line-height: 19.25px;
+    color: #FFFFFF;
 }
-.facebook {
-    width: 45%;
-    height: auto;
+
+.address-1 .pt-6 {
+    font-size: 13.75px;
+    line-height: 19.25px;
+    margin-top: 13.75px;
+    padding-top: 16.5px;
+}
+
+address {
+    color: #ffffff;
+    font-size: 11px;
+    font-style: normal;
+    margin-top: 13.75px;
 }
