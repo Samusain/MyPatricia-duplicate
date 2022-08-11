@@ -109,7 +109,6 @@ a {
 }
 
 .universe-wrapper {
-   
     background-image: url(https://mypatricia.co/_nuxt/fe78e083a17664d9e116c4fa6ace4f6b.svg);
     --tw-bg-opacity: 1;
     align-items: center;
@@ -1291,4 +1290,39 @@ address {
     font-size: 11px;
     font-style: normal;
     margin-top: 13.75px;
+}
+
+/*TAB VIEW*/
+@media only screen and (min-width:768px){
+
+    .hero-wrapper{
+        padding-top: 99px;
+        height: 450px;
+    }
+
+    .hero-wrapper .content-sect {
+        max-width: 364px;
+        padding-bottom: 16.25px;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin-left: 230px;
+    }
+
+    .universe-wrapper {
+        background-image: url(https://mypatricia.co/_nuxt/fe78e083a17664d9e116c4fa6ace4f6b.svg);
+        --tw-bg-opacity: 1;
+        align-items: center;
+        background-color: rgba(255,255,255,var(--tw-bg-opacity));
+        background-position: 100% 0;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        z-index: 10;
+    }
+
 }
